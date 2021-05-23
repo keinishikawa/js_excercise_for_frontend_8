@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+#question {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  background-color: burlywood;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+}
+
+li:hover {
+  background-color: bisque;
+}
